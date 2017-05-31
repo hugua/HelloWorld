@@ -1,0 +1,9 @@
+com\chen\service\UserService.class
+com\chen\pojo\UserExample$Criteria.class
+com\chen\pojo\UserExample$Criterion.class
+com\chen\pojo\UserExample.class
+com\chen\pojo\User.class
+com\chen\controller\UserController.class
+com\chen\mapper\UserMapper.class
+com\chen\pojo\UserExample$GeneratedCriteria.class
+com\chen\service\UserServiceImpl.class
