@@ -21,6 +21,8 @@
     <servlet-api.version>3.1.0</servlet-api.version>
     <jsp-api.version>2.0</jsp-api.version>
     <javaee-api-version>7.0</javaee-api-version>
+    <javax.mail>1.5.6</javax.mail>
+    <freemaeket-version> 2.3.22</freemaeket-version>
   </properties>
   <dependencies>
 
@@ -121,6 +123,32 @@
     <version>${jsp-api.version}</version>
     <scope>provided</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+      <version>${freemaeket-version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.5.6</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+    <dependency>
+      <groupId>jfree</groupId>
+      <artifactId>jfreechart</artifactId>
+      <version>1.0.10</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jfree/jcommon -->
+    <dependency>
+      <groupId>jfree</groupId>
+      <artifactId>jcommon</artifactId>
+      <version>1.0.13</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>${project.artifactId}</finalName>
